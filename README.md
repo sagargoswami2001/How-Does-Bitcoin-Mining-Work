@@ -81,3 +81,24 @@ if __name__=='__main__':
 ```
 
 **OUTPUT**
+
+![](Output.png)
+
+**Code Explanation**
+- **Hashlib module in python:** This module implements a common interface to numerous different secure hash and communication condensation algorithms.
+
+- **Cryptographic hash function:** So let's know about hash functions. It is just a hash function. A hash function is a built-in function that returns the hash value of the object. This will produce a hash that is 256 bits long; in the case of hexadecimal, it will be 64 hexadecimal digits, which is impossible to guess.
+
+- **SHA256 (x):** SHA256 is a cryptographic hash function. In cryptography, there is a function called "sha256" where you give an input string and it will generate a hash.
+
+<p align="center">
+    ‘ba7816bf8f01cfea414140de5dae1233b00361a696157a9cb410ff61f20027ad’
+</p>
+
+- If I give you a hash like this to guess at X, it's close to impossible. The only way you have is to try trial and error. You try different methods and you have to try to see which one produces the desired output.
+
+- **Nonce:** Nonce is like the number 1 to a trillion numbers.
+
+## **Summary**
+
+So, I hope you enjoyed the article. In this article, we learned what bitcoin is, what bitcoin mining is, and how the mining process works. We have also demonstrated a code for mining a dummy block of bitcoin using Python. You can get the source code at the top of the article and run it yourself. Try to change the "difficulty" in the code to observe the mining time difference. Also, heed the comments added. If you like the article, please like and share it with your friends and colleagues.
